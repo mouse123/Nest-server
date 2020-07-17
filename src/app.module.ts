@@ -16,7 +16,7 @@ import { UserModule } from './user/user.module';
       host: '106.53.108.154',
       port: 3306,
       username: 'root',
-      password: '',
+      password: '123456',
       database: 'CLOUD',
       entities: [__dirname+ '/**/*.entity{.ts,.js}'],
       synchronize: true,
