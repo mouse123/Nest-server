@@ -8,15 +8,20 @@ export class User {
     @Column()
     name: string;
 
-    //   @Column('text')
-    //   description: string;
+    @Column()
+    password: string;
 
-    //   @Column()
-    //   filename: string;
+    @Column({
+        default: 0
+    })
+    level: number;
 
-    //   @Column('int')
-    //   views: number;
+    @Column({
+        default: "0000-00-00 00:00:00"
+    })
+    login_time: Date;
+    
 
-    //   @Column()
-    //   isPublished: boolean;
+    @Column()
+    area: string;
 }
