@@ -17,7 +17,7 @@ export class User {
     level: number;
 
     @Column({
-        default: "0000-00-00 00:00:00"
+        // default: "0000-00-00 00:00:00"
     })
     login_time: Date;
     
