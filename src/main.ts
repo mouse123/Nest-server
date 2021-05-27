@@ -17,3 +17,4 @@ async function bootstrap() {
   await appStatic.listen(8088);
 }
 bootstrap();
+const a = 1;
